@@ -137,4 +137,23 @@ Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a pl
 
 ---
 
-*Private repo. Built with Claude Code.*
+*Private repo. Built with Claude Code.*## 4-week posting calendar
+
+| When | Asset | Where |
+|---|---|---|
+| Now | Pin post — "What I Actually Do" | IG, pinned |
+| W1 Mon | **Reel 1 — The Culture** | Reels + TikTok |
+| W1 Wed | Primary carousel | IG Feed |
+| W1 Thu | Story sequence — all 6 frames | IG Stories |
+| W2 Mon | Emotional caption — the 5:40am jog | IG Feed |
+| W2 Wed | **Reel 2 — The Island** | Reels + TikTok |
+| W2 Fri | Micro-carousel — 3 Decisions | IG Feed |
+| W3 Mon | Share card — Bonnie POV | Feed + Story |
+| W3 Wed | **Reel 3 — The Design** | Reels + TikTok |
+| W3 Thu | Share card — **CLIENT POV** (send it to them) | Their feed |
+| W3 Fri | App vs Advisor carousel | IG Feed |
+| W4 Mon | Bula Bid carousel | IG Feed |
+| W4 Wed | Shark dive reel + helicopter micro-reel | Reels |
+| W4 Fri | **Reel 4 — The Sizzle** (the closer) | Reels + TikTok |
+| Ongoing | Educational + punchy captions between main posts | IG Feed |
+
