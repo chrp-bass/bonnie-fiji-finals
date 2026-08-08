@@ -48,6 +48,14 @@ She didn't search. She called.
 
 ### 🎬 Reels
 
+**The 3-part master series — post one a week, in order:**
+
+- [⬇︎ series-1-the-culture.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/series-1-the-culture.mp4) — 20.7s · the mainland half
+- [⬇︎ series-2-the-island.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/series-2-the-island.mp4) — 22.7s · the private island
+- [⬇︎ series-3-the-design.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/series-3-the-design.mp4) — 20.8s · how it was built
+
+**Singles:**
+
 - [⬇︎ 01-MASTER-reel-34s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-MASTER-reel-34s.mp4)
 - [⬇︎ 01-MASTER-reel-COVER.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-MASTER-reel-COVER.png)
 - [⬇︎ 02-shark-dive-24s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-shark-dive-24s.mp4)
@@ -73,6 +81,14 @@ She didn't search. She called.
 - [⬇︎ bulabid-2-hook.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-2-hook.png)
 - [⬇︎ bulabid-3-how.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-3-how.png)
 - [⬇︎ bulabid-4-maths.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-4-maths.png)
+
+### 🆕 New — from the second photo drop
+
+- [⬇︎ new-feed-turndown.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/feed/new-feed-turndown.png) — FEED POST · they knew about the 50th
+- [⬇︎ new-carousel-river.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/feed/new-carousel-river.png) — CAROUSEL · the Navua River
+- [⬇︎ bulabid-5-proof.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-5-proof.png) — CAROUSEL · the lay-flat proof
+- [⬇︎ new-story-sunrise.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/new-story-sunrise.png) — STORY · one of the first on earth
+- [⬇︎ new-story-shark-scale.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/new-story-shark-scale.png) — STORY · count them
 
 ### 🗺 Extras
 
