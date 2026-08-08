@@ -7,7 +7,7 @@
 <style>
   :root{
     --ivory:#F7F5F2; --emerald:#135443; --sage:#7A9E93; --mist:#C7D2D2;
-    --taupe:#B6A696; --sand:#E1D9CC; --amber:#B8860B; --ink:#1A1714;
+    --taupe:#B6A696; --sand:#E1D9CC; --amber:#B8860B; --kill:#9E3B3B; --ink:#1A1714;
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   body{
@@ -83,6 +83,22 @@
   .approve{background:var(--emerald);color:#fff}
   .approve:active{opacity:.82}
   .editbtn{background:#fff;color:var(--amber);border:1.5px solid var(--amber)!important}
+  .kill{
+    flex:0 0 auto;background:transparent;color:var(--kill);
+    border:1px solid rgba(158,59,59,.32)!important;padding:12px 14px;font-weight:600;
+  }
+  .kill:active{background:rgba(158,59,59,.07)}
+  .card.dead{opacity:.5;border-color:#CDC3B8}
+  .card.dead .media{filter:grayscale(1) contrast(.88)}
+  .card.dead h3{text-decoration:line-through;color:#8C837A}
+  .card.dead .cap{color:#9A918A}
+  .card.dead .badge{filter:grayscale(1)}
+  .card.dead .acts,.card.dead .editrow{display:none}
+  .card.dead .status{display:block;color:var(--kill)}
+  .undo{
+    background:none;border:0;color:var(--taupe);font:inherit;font-size:13px;
+    text-decoration:underline;cursor:pointer;padding:0 0 0 8px;
+  }
   .editrow{display:flex;gap:9px;margin-top:9px}
   .editrow input{
     flex:1;border:1px solid var(--sand);border-radius:10px;padding:11px 12px;
@@ -133,7 +149,7 @@
 </header>
 
 <div class="bar">
-  <span><b id="okCount">0</b> approved · <b id="edCount">0</b> to fix · <span id="leftCount">16</span> left</span>
+  <span><b id="okCount">0</b> approved · <b id="edCount">0</b> to fix · <b id="kiCount">0</b> removed · <span id="leftCount">16</span> left</span>
   <button onclick="resetAll()">Reset</button>
 </div>
 
@@ -345,6 +361,7 @@ ASSETS.forEach((a,i)=>{
       <div class="status" id="s${i}"></div>
       <div class="acts">
         <button class="act approve" onclick="approve(${i})">✓ Approve</button>
+        <button class="act kill" onclick="kill(${i})">✕ Remove</button>
       </div>
       <div class="editrow">
         <input id="i${i}" placeholder="What needs changing?" autocomplete="off">
@@ -356,34 +373,41 @@ ASSETS.forEach((a,i)=>{
 
 function paint(i){
   const a=ASSETS[i],st=state[a.f],el=document.getElementById("c"+i),s=document.getElementById("s"+i);
-  el.classList.remove("ok","edit");
+  el.classList.remove("ok","edit","dead");
   if(!st){s.textContent="";}
-  else if(st.ok){el.classList.add("ok");s.textContent="✓ Approved";}
+  else if(st.kill){
+    el.classList.add("dead");
+    s.innerHTML='✕ Removed from the package<button class="undo" onclick="clr('+i+')">undo</button>';
+  }
+  else if(st.ok){el.classList.add("ok");s.innerHTML='✓ Approved<button class="undo" onclick="clr('+i+')">undo</button>';}
   else{el.classList.add("edit");s.textContent="✎ "+st.note;document.getElementById("i"+i).value=st.note;}
   counts();
 }
 function approve(i){state[ASSETS[i].f]={ok:1};save();paint(i);}
+function kill(i){state[ASSETS[i].f]={kill:1};save();paint(i);}
+function clr(i){delete state[ASSETS[i].f];save();document.getElementById("i"+i).value="";paint(i);}
 function flag(i){
   const v=document.getElementById("i"+i).value.trim();
   if(!v){document.getElementById("i"+i).focus();return;}
   state[ASSETS[i].f]={ok:0,note:v};save();paint(i);
 }
 function counts(){
-  let ok=0,ed=0;
-  ASSETS.forEach(a=>{const s=state[a.f];if(!s)return;s.ok?ok++:ed++;});
-  okCount.textContent=ok;edCount.textContent=ed;leftCount.textContent=ASSETS.length-ok-ed;
+  let ok=0,ed=0,ki=0;
+  ASSETS.forEach(a=>{const s=state[a.f];if(!s)return;if(s.kill)ki++;else if(s.ok)ok++;else ed++;});
+  okCount.textContent=ok;edCount.textContent=ed;kiCount.textContent=ki;
+  leftCount.textContent=ASSETS.length-ok-ed-ki;
 }
 function resetAll(){if(confirm("Clear all approvals and notes?")){state={};save();ASSETS.forEach((a,i)=>{document.getElementById("i"+i).value="";paint(i);});}}
 
 function genPrompt(){
-  const bad=ASSETS.filter(a=>state[a.f]&&!state[a.f].ok);
+  const bad=ASSETS.filter(a=>state[a.f]&&!state[a.f].ok&&!state[a.f].kill);
+  const dead=ASSETS.filter(a=>state[a.f]&&state[a.f].kill);
+  let p=[];
+  if(bad.length) p.push("Fix these assets:\n"+bad.map((a,n)=>`${n+1}. ${a.f}: ${state[a.f].note}`).join("\n"));
+  if(dead.length) p.push("Kill these assets — remove from the package:\n"+dead.map((a,n)=>`${n+1}. ${a.f}`).join("\n"));
   let t;
-  if(!bad.length){
-    t="All Fiji assets are approved. Nothing to change — publish the finals as they are.";
-  }else{
-    t="Fix these assets:\n"+bad.map((a,n)=>`${n+1}. ${a.f}: ${state[a.f].note}`).join("\n")
-      +"\n\nAll other assets are approved — don't touch them.";
-  }
+  if(!p.length){ t="All Fiji assets are approved. Nothing to change — publish the finals as they are."; }
+  else{ t=p.join("\n\n")+"\n\nAll other assets are approved — don't touch them."; }
   document.getElementById("out").value=t;
   dlg.showModal();
 }
