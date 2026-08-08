@@ -12,8 +12,8 @@ no elements on video-format pages, so there is nothing to `replace_text` or
 an editable page could not receive the Fiji photos.
 
 The three templates were still read for their design language, and it is what the
-finished reels follow: a solid colour band carrying a small tracked eyebrow above
-a large centred display title, sparkle ornaments above and below, and the photo
+finished reels follow: a solid color band carrying a small tracked eyebrow above
+a large centered display title, sparkle ornaments above and below, and the photo
 holding the rest of the frame.
 
 So this pack is the Canva route: drag these onto a reel page instead of rebuilding
@@ -48,7 +48,7 @@ apart. The nearest Canva equivalent is **Rise**, applied per text block, with th
 delay stepped down the lines. Cards use the same Rise on the eyebrow, then the
 title lines, then the sub.
 
-For the section transitions, Canva's **Colour wipe** in `#135443` or `#E1D9CC`
+For the section transitions, Canva's **Color wipe** in `#135443` or `#E1D9CC`
 matches the graphic wipes. Do not use Dissolve — the wipes are doing brand work,
 not just hiding a cut.
 

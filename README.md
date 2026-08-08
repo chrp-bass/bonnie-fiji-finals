@@ -40,7 +40,7 @@ Plus two singles that still stand on their own:
 | Reel | Length | Download |
 |---|---|---|
 | Shark dive | 24s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-24s.mp4) |
-| Micro-reel — the helicopter maths | 15s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-15s.mp4) |
+| Micro-reel — the helicopter math | 15s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-15s.mp4) |
 
 **Mainland frames never appear in Reel 2 and island frames never appear in Reel 1.**
 Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a place.
@@ -102,7 +102,7 @@ Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a pl
 - [⬇︎ bulabid-1-cover.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-1-cover.png)
 - [⬇︎ bulabid-2-hook.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-2-hook.png)
 - [⬇︎ bulabid-3-how.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-3-how.png)
-- [⬇︎ bulabid-4-maths.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-4-maths.png)
+- [⬇︎ bulabid-4-math.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-4-math.png)
 
 ### 🆕 New — from the second photo drop
 

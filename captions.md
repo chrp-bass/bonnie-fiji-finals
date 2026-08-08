@@ -113,11 +113,11 @@ That one upgrade covered my $400 design fee three times over.
 
 The jog was the part nobody planned for.
 
-Five-forty in the morning, three kilometres of private beach, and not one other person on it. He ran it every day. He didn't come to Fiji to run — he came to sit down. But there was a road through the jungle and a beach with nothing on it, and that turned out to be the thing he'd remember.
+Five-forty in the morning, three kilometers of private beach, and not one other person on it. He ran it every day. He didn't come to Fiji to run — he came to sit down. But there was a road through the jungle and a beach with nothing on it, and that turned out to be the thing he'd remember.
 
 Here's what I want you to understand about that: it only exists because of a decision.
 
-Five hundred acres, thirty-four villas. That ratio is the reason the beach was empty. On the island everyone books, the beach is shared by two resorts with two hundred seventy-nine and three hundred nineteen rooms. There is no version of that morning available there. Not for more money. Not for a better room. The maths doesn't allow it.
+Five hundred acres, thirty-four villas. That ratio is the reason the beach was empty. On the island everyone books, the beach is shared by two resorts with two hundred seventy-nine and three hundred nineteen rooms. There is no version of that morning available there. Not for more money. Not for a better room. The math doesn't allow it.
 
 The 180th meridian runs through Fiji. You are among the first people on the planet to see the sun come up. He watched it happen alone, ten days running, because of where I put him — not because he got lucky.
 
@@ -146,7 +146,7 @@ I picked the second one. Your move.
 
 ## EDUCATIONAL CAPTION — THE FIREWALKERS OF BEQA
 
-Here's something most travellers don't know about Fiji.
+Here's something most travelers don't know about Fiji.
 
 Firewalking isn't a Fijian thing. It's a **Beqa** thing — one island, one people, one bloodline.
 
