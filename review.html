@@ -116,6 +116,32 @@
     font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
   td{padding:9px 10px;border-top:1px solid var(--sand);vertical-align:top}
   td:first-child{color:var(--taupe);white-space:nowrap;width:1%}
+  .bar{flex-wrap:wrap}
+  .round{
+    background:var(--sand);color:var(--emerald);border-radius:999px;
+    padding:4px 12px;font-size:11.5px;font-weight:700;letter-spacing:.1em;
+    text-transform:uppercase;white-space:nowrap;
+  }
+  .nudge{
+    flex-basis:100%;font-size:12.5px;color:var(--taupe);font-style:italic;
+    line-height:1.4;padding-top:2px;
+  }
+  .footer.ready{background:var(--ivory);border-top:1px solid var(--sand)}
+  #shipBtn{
+    background:var(--emerald);color:var(--ivory);font-size:17px;padding:17px;
+    letter-spacing:.04em;box-shadow:0 4px 16px rgba(19,84,67,.28);
+  }
+  #shipBtn:active{opacity:.9}
+  .shipwrap{text-align:center}
+  .shipwrap h2{font-size:22px;margin:0 0 6px}
+  .shipwrap .big{font-size:15px;color:var(--ink);margin:0 0 16px}
+  .shiplink{
+    display:block;background:var(--emerald);color:var(--ivory);text-decoration:none;
+    border-radius:11px;padding:13px;font-weight:700;font-size:14px;margin:0 0 8px;
+    word-break:break-all;
+  }
+  .shipnote{font-size:12.5px;color:var(--taupe);margin:0 0 16px}
+  .shipcal{max-height:44vh;overflow:auto;text-align:left}
   .footer{
     position:fixed;left:0;right:0;bottom:0;background:var(--emerald);
     padding:13px 16px calc(13px + env(safe-area-inset-bottom));z-index:30;
@@ -151,8 +177,10 @@
 </header>
 
 <div class="bar">
+  <span class="round" id="roundChip">Review round 1</span>
   <span><b id="okCount">0</b> approved · <b id="edCount">0</b> to fix · <b id="kiCount">0</b> removed · <span id="leftCount">24</span> left</span>
   <button onclick="resetAll()">Reset</button>
+  <div class="nudge" id="nudge" hidden></div>
 </div>
 
 <main id="app"></main>
@@ -179,8 +207,9 @@
   </table>
 </main>
 
-<div class="footer">
-  <button onclick="genPrompt()">Generate Edit Prompt</button>
+<div class="footer" id="footer">
+  <button id="shipBtn" hidden onclick="shipIt()">Ship It →</button>
+  <button id="promptBtn" onclick="genPrompt()">Generate Edit Prompt</button>
 </div>
 
 <dialog id="dlg"><div class="dlg">
@@ -411,6 +440,7 @@ QUIZ: How many are in this frame? → UNDER 10 / 10–20 / MORE THAN 20 ✓
 Every shark asset so far is a close-up of one animal, which proves nothing about scale. This wide frame is the evidence for the "largest aggregation on earth" line the copy has been making all along.`},
 ];
 
+const ROUND=1;          // bumped by hand each time an edit round is processed
 const KEY="fiji-review-v1";
 let state=JSON.parse(localStorage.getItem(KEY)||"{}");
 const save=()=>localStorage.setItem(KEY,JSON.stringify(state));
@@ -468,10 +498,29 @@ function counts(){
   let ok=0,ed=0,ki=0;
   ASSETS.forEach(a=>{const s=state[a.f];if(!s)return;if(s.kill)ki++;else if(s.ok)ok++;else ed++;});
   okCount.textContent=ok;edCount.textContent=ed;kiCount.textContent=ki;
-  leftCount.textContent=ASSETS.length-ok-ed-ki;
+  const left=ASSETS.length-ok-ed-ki;
+  leftCount.textContent=left;
+
+  roundChip.textContent="Review round "+ROUND;
+  const n=document.getElementById("nudge");
+  if(ROUND>=3){
+    n.hidden=false;
+    n.textContent="Round "+ROUND+" — consider approving close-enough assets. Perfect is the enemy of posted.";
+  } else n.hidden=true;
+
+  // the finish line: nothing left to decide, nothing flagged, something approved
+  const done = ed===0 && left===0 && ok>0;
+  document.getElementById("shipBtn").hidden=!done;
+  document.getElementById("promptBtn").hidden=done;
+  document.getElementById("footer").classList.toggle("ready",done);
 }
 function resetAll(){if(confirm("Clear all approvals and notes?")){state={};save();ASSETS.forEach((a,i)=>{document.getElementById("i"+i).value="";paint(i);});}}
 
+function shipIt(){
+  const live=ASSETS.filter(a=>!(state[a.f]&&state[a.f].kill));
+  document.getElementById("shipHead").textContent="All "+live.length+" assets approved.";
+  shipDlg.showModal();
+}
 function genPrompt(){
   const bad=ASSETS.filter(a=>state[a.f]&&!state[a.f].ok&&!state[a.f].kill);
   const dead=ASSETS.filter(a=>state[a.f]&&state[a.f].kill);
@@ -492,5 +541,32 @@ function copyOut(btn){
 }
 ASSETS.forEach((a,i)=>paint(i));
 </script>
+<dialog id="shipDlg"><div class="dlg shipwrap">
+  <div style="font-size:34px;line-height:1;margin-bottom:8px">✦</div>
+  <h2 id="shipHead">All assets approved.</h2>
+  <p class="big">Ready to post.</p>
+  <a class="shiplink" id="shipLink" href="https://github.com/chrp-bass/bonnie-fiji-finals" target="_blank" rel="noopener">github.com/chrp-bass/bonnie-fiji-finals</a>
+  <p class="shipnote">Tap any file to download it, then post from your phone.</p>
+  <div class="shipcal"><table>
+    <tr><th>When</th><th>Asset</th><th>Where</th></tr>
+    <tr><td>Now</td><td>Pin post — "What I Actually Do"</td><td>IG, pinned</td></tr>
+    <tr><td>W1 Mon</td><td><b>Reel 1 — The Culture</b></td><td>Reels + TikTok</td></tr>
+    <tr><td>W1 Wed</td><td>Primary carousel</td><td>IG Feed</td></tr>
+    <tr><td>W1 Thu</td><td>Story sequence — all 6 frames</td><td>IG Stories</td></tr>
+    <tr><td>W2 Mon</td><td>Emotional caption — the 5:40am jog</td><td>IG Feed</td></tr>
+    <tr><td>W2 Wed</td><td><b>Reel 2 — The Island</b></td><td>Reels + TikTok</td></tr>
+    <tr><td>W2 Fri</td><td>Micro-carousel — 3 Decisions</td><td>IG Feed</td></tr>
+    <tr><td>W3 Mon</td><td>Share card — Bonnie POV</td><td>Feed + Story</td></tr>
+    <tr><td>W3 Wed</td><td><b>Reel 3 — The Design</b></td><td>Reels + TikTok</td></tr>
+    <tr><td>W3 Thu</td><td>Share card — <b>CLIENT POV</b> (send it to them)</td><td>Their feed</td></tr>
+    <tr><td>W3 Fri</td><td>App vs Advisor carousel</td><td>IG Feed</td></tr>
+    <tr><td>W4 Mon</td><td>Bula Bid carousel</td><td>IG Feed</td></tr>
+    <tr><td>W4 Wed</td><td>Shark dive reel + helicopter micro-reel</td><td>Reels</td></tr>
+    <tr><td>W4 Fri</td><td><b>Reel 4 — The Sizzle</b> (the closer)</td><td>Reels + TikTok</td></tr>
+    <tr><td>Ongoing</td><td>Educational + punchy captions between main posts</td><td>IG Feed</td></tr>
+  </table></div>
+  <div class="acts"><button class="act close" onclick="shipDlg.close()">Close</button></div>
+</div></dialog>
+
 </body>
 </html>
