@@ -4,19 +4,57 @@ Copy-paste ready. Every CTA is the invitation, not the transaction.
 
 ---
 
-## THE REEL (master, 34.7s)
+## REEL 1 — THE CULTURE (20.7s) · post 1st
 
-Two weeks in Fiji, and it was really two completely different halves.
+Everyone books the resort fifteen minutes from the airport. I sent them fifty-five miles the other way.
 
-Part one was the mainland — Nanuku, 34 villas on 500 private acres. A river, a waterfall, and a village where we presented kava to the chief and formally asked permission to come ashore.
+The drum you can hear before you see it. A village where you don't just turn up — you ask permission to come ashore. A pro surfer who took them to breaks that aren't on any map. A river that keeps going after the road stops.
 
-Part two was a private island. 16 villas, adults only, no day visitors.
+And a dinner with no menu, where the chef picks the wine to match what came out of the water that morning.
 
-In between: an 8-seat Caravan off a grass strip half a mile from the gate, and a twin-engine helicopter onto a lawn.
+That half isn't the luxury half. It's the half that makes the luxury half mean something.
 
-None of it came from a search bar. A pro surfer took us to breaks with no name. Su, who has 1,500 dives, took us to 80 feet with bull sharks. And the island — I didn't search for it. I called the people who own it.
+📍 Pacific Harbour, Fiji
+💬 DM me FIJI — I'll tell you if this one's right for you.
 
-That's the $400. Not a booking. A phone book.
+---
+
+## REEL 2 — THE ISLAND (22.7s) · post 2nd
+
+Sixteen villas. Adults only. No day visitors.
+
+You arrive by helicopter because the boat takes three hours. Then the island is yours — a coffee with your name written in it, a deck with nobody on it, and twenty minutes offshore, eight species of shark at eighty feet.
+
+The dive wasn't a dive. It was Su, who has 1,500 of them, and who I've known for years.
+
+Last frame is the sunset. I didn't do anything to it.
+
+📍 Beqa Lagoon, Fiji
+💬 DM me FIJI — I'll tell you if this one's right for you.
+
+---
+
+## REEL 3 — THE DESIGN (20.9s) · post 3rd
+
+All of this started with a $400 design fee.
+
+Here's what it actually bought: a business class upgrade we bid for and won. A pro surfer who showed them the breaks. A dive instructor with 1,500 dives. A private island whose owners I've known for years.
+
+The upgrade alone covered the fee three times over. The rest — the sequencing, the transfers, the fact that the culture came before the luxury and not after — that's the part you can't price and can't search for.
+
+That's the job.
+
+💬 DM me FIJI — I'll tell you if this one's right for you.
+
+---
+
+## REEL 4 — THE SIZZLE (27.7s) · post LAST
+
+One couple. Two weeks. Culture, luxury and adventure — designed, not searched.
+
+Send this one to the person you'd go with.
+
+Culture. Adventure. Luxury. Designed.
 
 💬 DM me FIJI — I'll tell you if this one's right for you.
 

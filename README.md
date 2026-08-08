@@ -23,24 +23,46 @@ She didn't search. She called.
 
 ---
 
-## 4-week posting calendar
+## The four Reels — post in this order
 
-| When | Asset | Where | File |
-|---|---|---|---|
-| Now | Pin post — "What I Actually Do" | IG, pinned | `captions.md` |
-| W1 Mon | **THE Reel** (34.7s) | Reels + TikTok | [⬇︎ download](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-MASTER-reel-34s.mp4) |
-| W1 Wed | Primary carousel | IG Feed | `— in Canva` |
-| W1 Thu | Story sequence, all 6 frames | IG Stories | `stories/` |
-| W2 Mon | Emotional caption — the 5:40am jog | IG Feed | [⬇︎ download](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/captions.md) |
-| W2 Wed | Share card — Bonnie POV | Feed + Story | [⬇︎ download](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/share-cards/share-card-bonnie-pov.png) |
-| W2 Fri | Micro-carousel — 3 Decisions | IG Feed | `captions.md` |
-| W3 Mon | Guide story — the 47 decisions | IG Story | `captions.md` |
-| W3 Wed | Micro-reel — the helicopter maths | Reels + TikTok | [⬇︎ download](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-micro-reel-helicopter-15s.mp4) |
-| W3 Thu | Share card — **CLIENT POV** (send to them) | Their feed | [⬇︎ download](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/share-cards/share-card-client-pov.png) |
-| W3 Fri | App vs Advisor carousel | IG Feed | `captions.md` |
-| W4 Mon | Punchy caption | IG Feed | [⬇︎ download](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/captions.md) |
-| W4 Wed | Educational caption — the firewalkers | IG Feed | [⬇︎ download](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/captions.md) |
-| W4 Fri | **Bula Bid carousel + Shark dive reel** | Feed + Reels | `bula-bid/` |
+The first three are the campaign. **The Sizzle is the trailer** — post it last,
+after the other three have built the desire. It converts the audience they warmed up.
+
+| # | Reel | Length | What it is | Download |
+|---|---|---|---|---|
+| 1 | **The Culture** | 20.7s | The mainland half. Village, the drum, breaks with no name, a dinner with no menu. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-the-culture-21s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-COVER.png) |
+| 2 | **The Island** | 22.7s | Sixteen villas, adults only, no day visitors. Opens on the sharks. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-the-island-23s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-COVER.png) |
+| 3 | **The Design** | 20.9s | The conversion piece. The $400, and what it actually bought. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-21s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-COVER.png) |
+| 4 | **THE SIZZLE** | 27.7s | **The trailer. The one you send to the person you'd go with.** | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-COVER.png) |
+
+Plus two singles that still stand on their own:
+
+| Reel | Length | Download |
+|---|---|---|
+| Shark dive | 24s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-24s.mp4) |
+| Micro-reel — the helicopter maths | 15s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-15s.mp4) |
+
+**Mainland frames never appear in Reel 2 and island frames never appear in Reel 1.**
+Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a place.
+
+---
+
+## Posting calendar
+
+| When | Asset | Where |
+|---|---|---|
+| Now | Pin post — "What I Actually Do" | IG, pinned |
+| Week 1 · Mon | **Reel 1 — The Culture** | Reels + TikTok |
+| Week 1 · Wed | Story sequence | IG Stories |
+| Week 1 · Thu | **Reel 2 — The Island** | Reels + TikTok |
+| Week 1 · Sat | **Reel 3 — The Design** | Reels + TikTok |
+| Week 2 · Mon | **Reel 4 — The Sizzle** | Reels + TikTok |
+| Week 2 · Wed | Share card — Bonnie POV | Feed + Story |
+| Week 2 · Fri | Bula Bid carousel | IG Feed |
+| Week 3 · Mon | Share card — client POV | IG Feed |
+| Week 3 · Wed | Shark dive reel | Reels + TikTok |
+| Week 3 · Fri | Micro-reel — the helicopter | Reels + TikTok |
+| Week 4 | Emotional / punchy / educational captions | IG Feed |
 
 ---
 
@@ -50,16 +72,16 @@ She didn't search. She called.
 
 **The 3-part master series — post one a week, in order:**
 
-- [⬇︎ series-1-the-culture.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/series-1-the-culture.mp4) — 20.7s · the mainland half
-- [⬇︎ series-2-the-island.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/series-2-the-island.mp4) — 22.7s · the private island
-- [⬇︎ series-3-the-design.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/series-3-the-design.mp4) — 20.8s · how it was built
+- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) — 20.7s · the mainland half
+- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) — 22.7s · the private island
+- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) — 20.8s · how it was built
 
 **Singles:**
 
-- [⬇︎ 01-MASTER-reel-34s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-MASTER-reel-34s.mp4)
-- [⬇︎ 01-MASTER-reel-COVER.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-MASTER-reel-COVER.png)
-- [⬇︎ 02-shark-dive-24s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-shark-dive-24s.mp4)
-- [⬇︎ 03-micro-reel-helicopter-15s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-micro-reel-helicopter-15s.mp4)
+- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4)
+- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4)
+- [⬇︎ 05-shark-dive-24s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-24s.mp4)
+- [⬇︎ 06-micro-reel-helicopter-15s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-15s.mp4)
 
 ### 📱 Stories (post in order)
 
