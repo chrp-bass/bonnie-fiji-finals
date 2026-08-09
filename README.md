@@ -39,7 +39,7 @@ Plus two singles that still stand on their own:
 
 | Reel | Length | Download |
 |---|---|---|
-| Shark dive | 24s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-24s.mp4) |
+| **Shark dive — the moment reel** | 15.5s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-16s.mp4) |
 | Micro-reel — the helicopter math | 15s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-16s.mp4) |
 
 **Mainland frames never appear in Reel 2 and island frames never appear in Reel 1.**
@@ -52,6 +52,7 @@ Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a pl
 | When | Asset | Instagram | Facebook |
 |---|---|---|---|
 | Now | Pin post — "What I Actually Do" | Feed (pinned) | Feed (pinned) |
+| Week 1 · Sun | **Shark dive — the moment reel** (posts FIRST, no CTA) | Reels | Reels |
 | Week 1 · Mon | **Reel 1 — The Culture** | Reels | Reels |
 | Week 1 · Wed | Primary carousel — the antithesis map | Feed | Feed |
 | Week 1 · Thu | Story sequence — all 7 frames | Stories | Stories |
@@ -88,7 +89,7 @@ page's **Ship It** dialog and it exports with real dates instead of week labels.
 **Singles:**
 
 - [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) — 27.5s · the trailer, already scored
-- [⬇︎ 05-shark-dive-24s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-24s.mp4)
+- [⬇︎ 05-shark-dive-16s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-16s.mp4)
 - [⬇︎ 06-micro-reel-helicopter-16s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-16s.mp4)
 
 ### 📱 Stories (post in order)
@@ -195,3 +196,14 @@ set the Monday of week 1, and download `buffer-import.csv` from there.
 ---
 
 *Private repo. Built with Claude Code.*
+
+---
+
+## Clean underwater clips
+
+Raw vertical footage for re-cuts — 1080×1920, 1.5s each, house grade, no text,
+no brand marks.
+
+- [⬇︎ shark-clean-01.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/shark-clips/shark-clean-01.mp4) — bull shark close
+- [⬇︎ shark-clean-02.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/shark-clips/shark-clean-02.mp4) — the swarm
+- [⬇︎ shark-clean-03.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/shark-clips/shark-clean-03.mp4) — the overhead glide
