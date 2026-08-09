@@ -170,7 +170,6 @@ That's what the fourteen days were for. That's what the fee is for.
 1. **story-1-poll** — Culture first. Island second. → POLL: THE VILLAGE / THE ISLAND
 2. **story-2-surfer** — A pro took them to breaks with no name. → QUESTION BOX: "Who do you actually know?"
 3. **story-3-krait-poll** — Something on the path. → POLL: RUN / PHOTO
-4. **story-4-krait-payoff** — *Post ~30 min after the poll.* It wasn't lost. A sea krait spends half its life on land.
 5. **story-5-slider** — 1,500 dives. His name is Su. → SLIDER: Would you get in?
 6. **story-6-quiz** — I didn't search for an island. → QUIZ: correct answer is THEIR ADVISOR KNOWS THE OWNERS
 

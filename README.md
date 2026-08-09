@@ -88,7 +88,6 @@ Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a pl
 - [⬇︎ story-1-poll.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/story-1-poll.png)
 - [⬇︎ story-2-surfer.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/story-2-surfer.png)
 - [⬇︎ story-3-krait-poll.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/story-3-krait-poll.png)
-- [⬇︎ story-4-krait-payoff.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/story-4-krait-payoff.png)
 - [⬇︎ story-5-slider.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/story-5-slider.png)
 - [⬇︎ story-6-quiz.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/story-6-quiz.png)
 
