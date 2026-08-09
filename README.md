@@ -32,7 +32,7 @@ after the other three have built the desire. It converts the audience they warme
 |---|---|---|---|---|
 | 1 | **The Culture** | 19.5s | The mainland half, already scored. Village, the drum, breaks with no name, a dinner with no menu. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-the-culture-20s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-COVER.png) |
 | 2 | **The Island** | 22.7s | Sixteen villas, adults only, no day visitors. Opens on the sharks. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-the-island-26s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-COVER.png) |
-| 3 | **The Design** | 20.9s | The conversion piece. The $400, and what it actually bought. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-30s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-COVER.png) |
+| 3 | **The Design** | 22.0s | The conversion piece, already scored. The $400 on screen, and what it bought. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-22s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-COVER.png) |
 | 4 | **THE SIZZLE** | 27.5s | **The trailer, already scored. Every clip carries a line — it reads on mute.** | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-COVER.png) · [silent](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s-NOAUDIO.mp4) |
 
 Plus two singles that still stand on their own:
@@ -83,7 +83,7 @@ page's **Ship It** dialog and it exports with real dates instead of week labels.
 
 - [⬇︎ 01-REEL-1-the-culture-20s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-the-culture-20s.mp4) — 19.5s · the mainland half
 - [⬇︎ 02-REEL-2-the-island-26s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-the-island-26s.mp4) — 22.7s · the private island
-- [⬇︎ 03-REEL-3-the-design-30s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-30s.mp4) — 20.9s · how it was built
+- [⬇︎ 03-REEL-3-the-design-22s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-22s.mp4) — 20.9s · how it was built
 
 **Singles:**
 
