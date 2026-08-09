@@ -106,16 +106,18 @@ page's **Ship It** dialog and it exports with real dates instead of week labels.
 
 ### ✈️ Bula Bid carousel
 
-- [⬇︎ bulabid-1-cover.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-1-cover.png)
-- [⬇︎ bulabid-2-hook.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-2-hook.png)
-- [⬇︎ bulabid-3-how.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-3-how.png)
-- [⬇︎ bulabid-4-math.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-4-math.png)
+*One post, five slides. Select all five in order when you post — the numbering keeps them sorted in your camera roll.*
+
+- [⬇︎ bula-bid-01.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-01.png) — the hook: we bid $1,200 to lay flat
+- [⬇︎ bula-bid-02.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-02.png) — the gap your search engine won't find
+- [⬇︎ bula-bid-03.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-03.png) — how Bula Bid actually works
+- [⬇︎ bula-bid-04.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-04.png) — the math
+- [⬇︎ bula-bid-05.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-05.png) — the proof
 
 ### 🆕 New — from the second photo drop
 
 - [⬇︎ new-feed-turndown.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/feed/new-feed-turndown.png) — FEED POST · they knew about the 50th
 - [⬇︎ new-carousel-river.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/feed/new-carousel-river.png) — CAROUSEL · the Navua River
-- [⬇︎ bulabid-5-proof.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bulabid-5-proof.png) — CAROUSEL · the lay-flat proof
 - [⬇︎ new-story-sunrise.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/new-story-sunrise.png) — STORY · one of the first on earth
 - [⬇︎ new-story-shark-scale.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/new-story-shark-scale.png) — STORY · count them
 

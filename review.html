@@ -52,6 +52,21 @@
     border-radius:9px;background:#000;object-fit:contain;
   }
   .media img.wide{max-width:280px}
+  .media.carousel{display:block;padding:14px 0 10px}
+  .strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;gap:0}
+  .strip::-webkit-scrollbar{display:none}
+  .slide{flex:0 0 100%;scroll-snap-align:center;display:flex;
+    justify-content:center;padding:0 14px;box-sizing:border-box;position:relative}
+  .slide img{max-width:236px}
+  .slideno{position:absolute;top:8px;left:50%;transform:translateX(48px);background:rgba(19,84,67,.82);
+    color:#F7F5F2;font-size:10.5px;font-weight:700;letter-spacing:.06em;
+    padding:3px 8px;border-radius:20px}
+  .dots{display:flex;justify-content:center;gap:7px;padding:12px 0 2px}
+  .dot{width:6px;height:6px;border-radius:50%;background:#CDC3B8;transition:.18s}
+  .dot.on{background:var(--emerald);transform:scale(1.35)}
+  .swipenote{margin:9px 0 0;font-size:12px;line-height:1.5;color:var(--emerald);
+    background:rgba(19,84,67,.06);border-radius:8px;padding:9px 11px}
   .body{padding:16px 17px 17px}
   .row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
   h3{margin:0;font-size:16px;font-weight:600;color:var(--emerald)}
@@ -149,6 +164,7 @@
     line-height:1.4;padding-top:2px;
   }
   .footer.ready{background:var(--ivory);border-top:1px solid var(--sand)}
+  .footer button[hidden]{display:none}
   #shipBtn{
     background:var(--emerald);color:var(--ivory);font-size:17px;padding:17px;
     letter-spacing:.04em;box-shadow:0 4px 16px rgba(19,84,67,.28);
@@ -201,7 +217,7 @@
 <header>
   <div class="mark">✦ VACATIONS BOOKED ✦</div>
   <h1>Fiji — Review</h1>
-  <p>Approve what's good. Flag what isn't. 23 assets.</p>
+  <p>Approve what's good. Flag what isn't. 19 posts — the Bula Bid carousel is one card you swipe through.</p>
   <p class="howto">When you're done, tap <b>Generate Edit Prompt</b> at the bottom and text the result to Jeff.</p>
 </header>
 
@@ -259,7 +275,7 @@ const XPOST = {"fiji-reel-4-the-sizzle.mp4": true, "fiji-reel-1-the-culture.mp4"
 const WEEKLBL = {"0": "W1 +0d", "2": "W1 +2d", "3": "W1 +3d", "7": "W2 +0d", "9": "W2 +2d", "11": "W2 +4d", "14": "W3 +0d", "16": "W3 +2d", "17": "W3 +3d", "21": "W4 +0d", "23": "W4 +2d", "25": "W4 +4d"};
 const LIMIT = {REEL:[15,25], CAROUSEL:[40,60], 'FEED POST':[100,150]};
 const BADGE = {"REEL":["b-reel","1080×1920"],"STORY":["b-story","1080×1920"],"CAROUSEL":["b-carousel","1080×1350"],"FEED POST":["b-feed","1080×1350"],"SHARE CARD":["b-share","1080×1080"]};
-const ASSETS = [
+let ASSETS = [
 {s:"The Reels",f:"fiji-reel-4-the-sizzle.mp4",u:"reels/04-SIZZLE-the-trailer-29s.mp4",b:"REEL",v:1,t:"THE SIZZLE — the trailer",m:"28.7s · SCORED · Reels + TikTok · post 4th",
 c:`One couple. Two weeks. Culture, luxury and adventure — designed, not searched.
 
@@ -493,6 +509,28 @@ function paintWc(i){
   el.textContent=n+" / "+lim[0]+"-"+lim[1]+" words";
   el.classList.toggle("over", n<lim[0]||n>lim[1]);
 }
+// A carousel is one post, not N cards. Collapse the slides into a single entry
+// keyed on the cover, so the cover's existing approval survives the regroup.
+const CAROUSELS=[{
+  key:"bulabid-1-cover.png",
+  t:"Bula Bid — the $1,200 lay-flat",
+  m:"5 slides · week 4",
+  slides:["bulabid-1-cover.png","bulabid-2-hook.png","bulabid-3-how.png",
+          "bulabid-4-math.png","bulabid-5-proof.png"],
+  names:["bula-bid-01.png","bula-bid-02.png","bula-bid-03.png",
+         "bula-bid-04.png","bula-bid-05.png"]
+}];
+CAROUSELS.forEach(g=>{
+  const cover=ASSETS.find(a=>a.f===g.key);
+  if(!cover) return;
+  const notes=g.slides.map((f,n)=>{
+    const a=ASSETS.find(x=>x.f===f);
+    return a ? (n+1)+". "+a.t.replace(/^(Slide \d+ — |Bula Bid slide \d+ — )/,"")+" — "+a.c : "";
+  }).filter(Boolean);
+  cover.t=g.t; cover.m=g.m; cover.slides=g.slides; cover.names=g.names; cover.c=notes.join("\n\n");
+  ASSETS=ASSETS.filter(a=>a.f===g.key||!g.slides.includes(a.f));
+});
+
 const KEY="fiji-review-v1";
 let state=JSON.parse(localStorage.getItem(KEY)||"{}");
 const save=()=>localStorage.setItem(KEY,JSON.stringify(state));
@@ -503,15 +541,23 @@ ASSETS.forEach((a,i)=>{
   if(a.s!==sect){sect=a.s;const h=document.createElement("div");h.className="sect";h.textContent=sect;app.appendChild(h);}
   const el=document.createElement("div");
   el.className="card";el.id="c"+i;
-  const media=a.v
+  const media=a.slides
+    ? `<div class="strip" id="st${i}" onscroll="dotsFor(${i})">`+
+      a.slides.map((f,n)=>
+        `<div class="slide"><img loading="lazy" src="${MEDIA[f]||f}" alt="Slide ${n+1}">`+
+        `<span class="slideno">${n+1}/${a.slides.length}</span></div>`).join("")+
+      `</div><div class="dots" id="dt${i}">`+
+      a.slides.map((f,n)=>`<span class="dot${n?'':' on'}"></span>`).join("")+`</div>`
+    : a.v
     ? `<video controls playsinline preload="metadata" poster="${MEDIA[a.f.replace(/\.mp4$/,'-poster.jpg')]||''}"><source src="${a.u||a.f}" type="video/mp4"></video>`
     : `<img loading="lazy" class="${/share-card|map/.test(a.f)?'wide':''}" src="${MEDIA[a.f]||a.u||a.f}" alt="${a.t}">`;
   el.innerHTML=`
-    <div class="media">${media}</div>
+    <div class="media${a.slides?" carousel":""}">${media}</div>
     <div class="body">
       <div class="row"><h3>${a.t}</h3><span class="chip">${a.m}</span></div>
-      <div class="badges"><span class="badge ${BADGE[a.b][0]}">${a.b} · ${BADGE[a.b][1]}</span></div>
-      <p class="file">${a.f}</p>
+      <div class="badges"><span class="badge ${BADGE[a.b][0]}">${a.b} · ${BADGE[a.b][1]}${a.slides?" · "+a.slides.length+" slides":""} · IG + FB</span></div>
+      <p class="file">${a.names?a.names.join("  ·  "):a.f}</p>
+      ${a.slides?`<p class="swipenote">This is <b>one post</b> with ${a.slides.length} swipeable slides. Select all ${a.slides.length} images, in order, when you post it.</p>`:""}
       <div class="capwrap">
         <div class="caphead">
           <span class="bucket ${BK[(CAPS[a.f]||[])[0]]||'b-conn'}">${(CAPS[a.f]||['—'])[0]}</span>
@@ -534,6 +580,13 @@ ASSETS.forEach((a,i)=>{
   app.appendChild(el);
 });
 
+function dotsFor(i){
+  const st=document.getElementById("st"+i);
+  if(!st) return;
+  const n=Math.round(st.scrollLeft/st.clientWidth);
+  [...document.getElementById("dt"+i).children]
+    .forEach((d,k)=>d.classList.toggle("on",k===n));
+}
 function paint(i){
   const a=ASSETS[i],st=state[a.f],el=document.getElementById("c"+i),s=document.getElementById("s"+i);
   el.classList.remove("ok","edit","dead");
