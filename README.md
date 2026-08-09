@@ -33,7 +33,7 @@ after the other three have built the desire. It converts the audience they warme
 | 1 | **The Culture** | 20.7s | The mainland half. Village, the drum, breaks with no name, a dinner with no menu. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-the-culture-21s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-COVER.png) |
 | 2 | **The Island** | 22.7s | Sixteen villas, adults only, no day visitors. Opens on the sharks. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-the-island-23s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-COVER.png) |
 | 3 | **The Design** | 20.9s | The conversion piece. The $400, and what it actually bought. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-21s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-COVER.png) |
-| 4 | **THE SIZZLE** | 27.7s | **The trailer. The one you send to the person you'd go with.** | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-COVER.png) |
+| 4 | **THE SIZZLE** | 28.7s | **The trailer, already scored. The one you send to the person you'd go with.** | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-COVER.png) · [silent](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s-NOAUDIO.mp4) |
 
 Plus two singles that still stand on their own:
 
