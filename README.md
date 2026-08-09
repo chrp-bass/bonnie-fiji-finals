@@ -114,6 +114,34 @@ page's **Ship It** dialog and it exports with real dates instead of week labels.
 - [⬇︎ bula-bid-04.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-04.png) — the math
 - [⬇︎ bula-bid-05.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-05.png) — the proof
 
+### ⚖️ 3 Decisions That Made This Story
+
+*One post, three slides. One judgment call per slide — nothing else on them.*
+
+- [⬇︎ 3-decisions-01.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/3-decisions/3-decisions-01.png) — culture first, island second
+- [⬇︎ 3-decisions-02.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/3-decisions/3-decisions-02.png) — six minutes, not an hour
+- [⬇︎ 3-decisions-03.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/3-decisions/3-decisions-03.png) — an operator, not an excursion
+
+### 📱 Your Travel App vs Your Advisor
+
+*One post, five slides. Cover, then four side-by-side comparisons.*
+
+- [⬇︎ app-vs-advisor-01.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/app-vs-advisor/app-vs-advisor-01.png) — the cover
+- [⬇︎ app-vs-advisor-02.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/app-vs-advisor/app-vs-advisor-02.png) — where you stay
+- [⬇︎ app-vs-advisor-03.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/app-vs-advisor/app-vs-advisor-03.png) — how you get there
+- [⬇︎ app-vs-advisor-04.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/app-vs-advisor/app-vs-advisor-04.png) — who takes you diving
+- [⬇︎ app-vs-advisor-05.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/app-vs-advisor/app-vs-advisor-05.png) — what it costs to know
+
+### 🎛 CapCut, if you want the polished version
+
+The reels above are finished and postable exactly as they are. There's also a
+`capcut-ready/` folder — every reel broken into its individual clips with the
+text stripped out, the music bed pre-trimmed, and a beat sheet — for the
+five-minute polish pass.
+
+It's ~70MB of video, so it lives in the **Google Drive folder**, not here.
+If you skip it, post what's above. Either way you ship.
+
 ### 🆕 New — from the second photo drop
 
 - [⬇︎ new-feed-turndown.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/feed/new-feed-turndown.png) — FEED POST · they knew about the 50th

@@ -120,6 +120,34 @@ Worth knowing before you turn up anywhere in Fiji.
 #Fiji #TravelTips
 ```
 
+## `3-decisions-01.png`
+**Inspiration** · IG + FB Feed — carousel cover · _Week 2 Fri_
+
+```
+Three decisions made this Fiji story. None of them was the hotel.
+
+Culture first, island second — so the island meant something. A helicopter, because it buys back an hour. And a dive guide by name, not an excursion by price.
+
+That's the job.
+
+📍 Fiji
+#TravelAdvisor #Fiji
+```
+
+## `3-decisions-02.png`
+**Inspiration** · IG + FB Feed — carousel slide 2 · _Week 2 Fri_
+
+```
+Part of the 3 Decisions carousel. The caption lives on the cover slide.
+```
+
+## `3-decisions-03.png`
+**Inspiration** · IG + FB Feed — carousel slide 3 · _Week 2 Fri_
+
+```
+Part of the 3 Decisions carousel. The caption lives on the cover slide.
+```
+
 ## `share-card.png`
 **Inspiration** · IG + FB Feed + Story · _Week 3 Mon_
 
@@ -151,6 +179,48 @@ Written for the travelers, not for me — send it to them and let them post it.
 "Our advisor called the people who own a private island. This is what happened next."
 
 That sentence does more for a referral than anything I could write about myself.
+```
+
+## `app-vs-advisor-01.png`
+**Education** · IG + FB Feed — carousel cover · _Week 3 Fri_
+
+```
+Your app ranks ten thousand hotels by price. It has never been to one of them.
+
+Same country, same week, same budget — and a completely different two weeks. The app gives you the popular answer. Popular is a ranking. It was never a recommendation.
+
+DM me FIJI — I'll tell you if this one's right for you.
+
+📍 Fiji
+#TravelAdvisor #Fiji
+```
+
+## `app-vs-advisor-02.png`
+**Education** · IG + FB Feed — carousel slide 2 · _Week 3 Fri_
+
+```
+Part of the App vs Advisor carousel. The caption lives on the cover slide.
+```
+
+## `app-vs-advisor-03.png`
+**Education** · IG + FB Feed — carousel slide 3 · _Week 3 Fri_
+
+```
+Part of the App vs Advisor carousel. The caption lives on the cover slide.
+```
+
+## `app-vs-advisor-04.png`
+**Education** · IG + FB Feed — carousel slide 4 · _Week 3 Fri_
+
+```
+Part of the App vs Advisor carousel. The caption lives on the cover slide.
+```
+
+## `app-vs-advisor-05.png`
+**Education** · IG + FB Feed — carousel slide 5 · _Week 3 Fri_
+
+```
+Part of the App vs Advisor carousel. The caption lives on the cover slide.
 ```
 
 ## `bulabid-1-cover.png`
