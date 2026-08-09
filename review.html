@@ -560,8 +560,23 @@ CAROUSELS.forEach(g=>{
 });
 
 const KEY="fiji-review-v1";
+const RKEY=KEY+":round";
 let state=JSON.parse(localStorage.getItem(KEY)||"{}");
 const save=()=>localStorage.setItem(KEY,JSON.stringify(state));
+
+// A bumped ROUND means her notes from last time were compiled into an edit
+// prompt and acted on. Carrying them over would stack new edits on top of ones
+// already fixed, so anything flagged goes back to undecided and its box empties.
+// Approvals and removals are decisions, not notes — those hold.
+(function newRound(){
+  const seen=+(localStorage.getItem(RKEY)||0);
+  if(seen===ROUND) return;
+  if(seen){                                   // not her first visit — clear the notes
+    for(const f in state) if(!state[f].ok && !state[f].kill) delete state[f];
+    save();
+  }
+  localStorage.setItem(RKEY,ROUND);
+})();
 
 const app=document.getElementById("app");
 let sect="";
@@ -655,7 +670,7 @@ function counts(){
   document.getElementById("promptBtn").hidden=done;
   document.getElementById("footer").classList.toggle("ready",done);
 }
-function resetAll(){if(confirm("Clear all approvals and notes?")){state={};save();ASSETS.forEach((a,i)=>{document.getElementById("i"+i).value="";paint(i);});}}
+function resetAll(){if(confirm("Clear all approvals and notes?")){state={};save();localStorage.setItem(RKEY,ROUND);ASSETS.forEach((a,i)=>{document.getElementById("i"+i).value="";paint(i);});}}
 
 function startDate(){
   const v=document.getElementById("startDate").value;
