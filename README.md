@@ -13,7 +13,7 @@ On a phone: tap → **Download** → it lands in Files/Photos.
 ## The story in one line
 
 Denarau is 15 minutes from the Nadi airport — that's the entire reason it exists.
-Bonnie sent them **55 miles the other way**, then split the fortnight in two:
+Bonnie sent them **55 miles the other way**, then split the two weeks in two:
 **culture first** (Nanuku, 34 villas on 500 acres, a village that had to grant permission),
 **island second** (Royal Davui, 16 villas, no day visitors).
 
