@@ -53,18 +53,24 @@
   }
   .media img.wide{max-width:280px}
   .media.carousel{display:block;padding:14px 0 10px}
-  .strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;
-    -webkit-overflow-scrolling:touch;scrollbar-width:none;gap:0}
+  /* Fixed-width thumbs, not full-bleed: seeing a slice of the next slide is
+     what tells her this swipes instead of being one image. */
+  .strip{display:flex;flex-direction:row;flex-wrap:nowrap;overflow-x:auto;
+    scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;gap:10px;padding:0 14px}
   .strip::-webkit-scrollbar{display:none}
-  .slide{flex:0 0 100%;scroll-snap-align:center;display:flex;
-    justify-content:center;padding:0 14px;box-sizing:border-box;position:relative}
-  .slide img{max-width:236px}
-  .slideno{position:absolute;top:8px;left:50%;transform:translateX(48px);background:rgba(19,84,67,.82);
-    color:#F7F5F2;font-size:10.5px;font-weight:700;letter-spacing:.06em;
-    padding:3px 8px;border-radius:20px}
-  .dots{display:flex;justify-content:center;gap:7px;padding:12px 0 2px}
+  .slide{flex:0 0 250px;scroll-snap-align:start;position:relative}
+  .media.carousel .slide img{width:250px;max-width:250px;max-height:none;
+    height:auto;display:block;border-radius:9px;background:#000}
+  .slideno{position:absolute;top:8px;right:8px;background:rgba(19,84,67,.86);
+    color:#F7F5F2;font-size:11px;font-weight:700;letter-spacing:.05em;
+    padding:3px 9px;border-radius:20px}
+  .dotrow{display:flex;align-items:center;justify-content:center;
+    gap:11px;padding:13px 0 2px}
+  .dots{display:flex;gap:7px}
   .dot{width:6px;height:6px;border-radius:50%;background:#CDC3B8;transition:.18s}
   .dot.on{background:var(--emerald);transform:scale(1.35)}
+  .pos{font-size:11.5px;font-weight:700;letter-spacing:.04em;color:var(--taupe)}
   .swipenote{margin:9px 0 0;font-size:12px;line-height:1.5;color:var(--emerald);
     background:rgba(19,84,67,.06);border-radius:8px;padding:9px 11px}
   .body{padding:16px 17px 17px}
@@ -595,8 +601,9 @@ ASSETS.forEach((a,i)=>{
       a.slides.map((f,n)=>
         `<div class="slide"><img loading="lazy" src="${MEDIA[f]||f}" alt="Slide ${n+1}">`+
         `<span class="slideno">${n+1}/${a.slides.length}</span></div>`).join("")+
-      `</div><div class="dots" id="dt${i}">`+
-      a.slides.map((f,n)=>`<span class="dot${n?'':' on'}"></span>`).join("")+`</div>`
+      `</div><div class="dotrow"><div class="dots" id="dt${i}">`+
+      a.slides.map((f,n)=>`<span class="dot${n?'':' on'}"></span>`).join("")+
+      `</div><span class="pos" id="pos${i}">1 / ${a.slides.length}</span></div>`
     : a.v
     ? `<video controls playsinline preload="metadata" poster="${MEDIA[a.f.replace(/\.mp4$/,'-poster.jpg')]||''}"><source src="${a.u||a.f}" type="video/mp4"></video>`
     : `<img loading="lazy" class="${/share-card|map/.test(a.f)?'wide':''}" src="${MEDIA[a.f]||a.u||a.f}" alt="${a.t}">`;
@@ -632,9 +639,13 @@ ASSETS.forEach((a,i)=>{
 function dotsFor(i){
   const st=document.getElementById("st"+i);
   if(!st) return;
-  const n=Math.round(st.scrollLeft/st.clientWidth);
-  [...document.getElementById("dt"+i).children]
-    .forEach((d,k)=>d.classList.toggle("on",k===n));
+  const first=st.querySelector(".slide");
+  if(!first) return;
+  const step=first.offsetWidth+10;                       // thumb + the flex gap
+  const dots=[...document.getElementById("dt"+i).children];
+  const n=Math.min(dots.length-1,Math.max(0,Math.round(st.scrollLeft/step)));
+  dots.forEach((d,k)=>d.classList.toggle("on",k===n));
+  document.getElementById("pos"+i).textContent=(n+1)+" / "+dots.length;
 }
 function paint(i){
   const a=ASSETS[i],st=state[a.f],el=document.getElementById("c"+i),s=document.getElementById("s"+i);
