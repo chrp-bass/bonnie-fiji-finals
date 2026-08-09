@@ -14,66 +14,66 @@ You hear the lali drum before you see the village. Then you ask the chief for pe
 ```
 
 ## `fiji-antithesis-map.png`
-**Inspiration** · IG + FB Feed — carousel slide · _Week 1 Wed_
+**Inspiration** · IG + FB Feed — image-led · _Week 1 Wed_
 
 ```
-Denarau sits fifteen minutes from the Nadi airport. That proximity is the entire reason it exists.
+34 villas. Two miles of beach my client ran alone at 5:40 every morning.
 
-Nanuku is fifty-five miles the other way — 34 villas across 500 private acres, and nearly two miles of beach my client ran alone at 5:40 every morning.
+The resort everyone books has 4,700 reviews, 279 rooms and a shuttle bus to the pool.
 
-Same country. Same flight. Every point on this map plotted from their own photos.
+Same country. Same flight. Same week. Every pin on this map came off the GPS in their own photos.
 
-📍 Pacific Harbour, Fiji
+📍 Nanuku, Fiji
 #Fiji #TravelPlanning
 ```
 
 ## `story-1-poll.png`
-**Inspiration** · IG + FB Story · POLL · _Week 1 Thu_
+**Inspiration** · IG + FB Story · POLL — drop the real poll sticker over the drawn one · _Week 1 Thu_
 
 ```
-No caption — the frame is the content. Drop the real poll sticker over the drawn one before posting.
+
 ```
 
 ## `story-2-surfer.png`
-**Connection** · IG + FB Story · QUESTION BOX · _Week 1 Thu_
+**Connection** · IG + FB Story · QUESTION BOX — add the real question sticker · _Week 1 Thu_
 
 ```
-No caption — the frame is the content. Add the real question sticker before posting.
+
 ```
 
 ## `story-3-krait-poll.png`
-**Education** · IG + FB Story · POLL · _Week 1 Thu_
+**Education** · IG + FB Story · POLL — post this second, while reach is hot · _Week 1 Thu_
 
 ```
-No caption — the frame is the content. Post this second, while reach is hot.
+
 ```
 
 ## `story-5-slider.png`
-**Education** · IG + FB Story · SLIDER · _Week 1 Thu_
+**Education** · IG + FB Story · SLIDER — add the real slider · _Week 1 Thu_
 
 ```
-No caption — the frame is the content. Add the real slider before posting.
+
 ```
 
 ## `story-6-quiz.png`
-**Education** · IG + FB Story · QUIZ · _Week 1 Thu_
+**Education** · IG + FB Story · QUIZ — correct answer is the third option · _Week 1 Thu_
 
 ```
-No caption — the frame is the content. Correct answer is the third option.
+
 ```
 
 ## `new-story-sunrise.png`
-**Inspiration** · IG + FB Story · POLL · _Week 1 Thu_
+**Inspiration** · IG + FB Story · POLL — post around sunrise, for the obvious reason · _Week 1 Thu_
 
 ```
-No caption — the frame is the content. Post around sunrise for the obvious reason.
+
 ```
 
 ## `new-story-shark-scale.png`
-**Education** · IG + FB Story · QUIZ · _Week 1 Thu_
+**Education** · IG + FB Story · QUIZ — post ~30 min after the krait payoff · _Week 1 Thu_
 
 ```
-No caption — the frame is the content. Post ~30 min after the krait payoff.
+
 ```
 
 ## `new-feed-turndown.png`
@@ -124,28 +124,14 @@ Worth knowing before you turn up anywhere in Fiji.
 **Inspiration** · IG + FB Feed — carousel cover · _Week 2 Fri_
 
 ```
-Three decisions made this Fiji story. None of them was the hotel.
+Three decisions. That's the difference between a good two weeks and one you can't stop talking about.
 
-Culture first, island second — so the island meant something. A helicopter, because it buys back an hour. And a dive guide by name, not an excursion by price.
+Culture first. A helicopter instead of a boat. A dive guide by name, not an excursion by price.
 
-That's the job.
+None of them was the hotel.
 
 📍 Fiji
 #TravelAdvisor #Fiji
-```
-
-## `3-decisions-02.png`
-**Inspiration** · IG + FB Feed — carousel slide 2 · _Week 2 Fri_
-
-```
-Part of the 3 Decisions carousel. The caption lives on the cover slide.
-```
-
-## `3-decisions-03.png`
-**Inspiration** · IG + FB Feed — carousel slide 3 · _Week 2 Fri_
-
-```
-Part of the 3 Decisions carousel. The caption lives on the cover slide.
 ```
 
 ## `share-card.png`
@@ -174,11 +160,12 @@ Link in bio.
 **Connection** · Send to the clients for their feed · _Week 3 Thu_
 
 ```
-Written for the travelers, not for me — send it to them and let them post it.
+Our advisor called the people who own a private island.
 
-"Our advisor called the people who own a private island. This is what happened next."
+This is what two weeks in Fiji looked like.
 
-That sentence does more for a referral than anything I could write about myself.
+📍 Royal Davui, Fiji
+#Fiji
 ```
 
 ## `app-vs-advisor-01.png`
@@ -195,34 +182,6 @@ DM me FIJI — I'll tell you if this one's right for you.
 #TravelAdvisor #Fiji
 ```
 
-## `app-vs-advisor-02.png`
-**Education** · IG + FB Feed — carousel slide 2 · _Week 3 Fri_
-
-```
-Part of the App vs Advisor carousel. The caption lives on the cover slide.
-```
-
-## `app-vs-advisor-03.png`
-**Education** · IG + FB Feed — carousel slide 3 · _Week 3 Fri_
-
-```
-Part of the App vs Advisor carousel. The caption lives on the cover slide.
-```
-
-## `app-vs-advisor-04.png`
-**Education** · IG + FB Feed — carousel slide 4 · _Week 3 Fri_
-
-```
-Part of the App vs Advisor carousel. The caption lives on the cover slide.
-```
-
-## `app-vs-advisor-05.png`
-**Education** · IG + FB Feed — carousel slide 5 · _Week 3 Fri_
-
-```
-Part of the App vs Advisor carousel. The caption lives on the cover slide.
-```
-
 ## `bulabid-1-cover.png`
 **Education** · IG + FB Feed — carousel cover · _Week 4 Mon_
 
@@ -237,34 +196,6 @@ DM me FIJI if you're flying this year.
 
 📍 Nadi, Fiji
 #Fiji #TravelTips
-```
-
-## `bulabid-2-hook.png`
-**Education** · IG + FB Feed — carousel slide 2 · _Week 4 Mon_
-
-```
-Part of the Bula Bid carousel. The caption lives on the cover slide.
-```
-
-## `bulabid-3-how.png`
-**Education** · IG + FB Feed — carousel slide 3 · _Week 4 Mon_
-
-```
-Part of the Bula Bid carousel. The caption lives on the cover slide.
-```
-
-## `bulabid-4-math.png`
-**Education** · IG + FB Feed — carousel slide 4 · _Week 4 Mon_
-
-```
-Part of the Bula Bid carousel. The caption lives on the cover slide.
-```
-
-## `bulabid-5-proof.png`
-**Education** · IG + FB Feed — carousel slide 5 · _Week 4 Mon_
-
-```
-Part of the Bula Bid carousel. The caption lives on the cover slide.
 ```
 
 ## `fiji-reel-sharkdive.mp4`
@@ -291,7 +222,7 @@ Six minutes by helicopter, or three hours by boat. Nobody picks a resort by its 
 **Inspiration** · IG + FB Reels · TikTok · _Week 4 Fri_
 
 ```
-Two weeks. Two properties. One country most people only see from a pool fifteen minutes off the runway.
+Two weeks. Two properties. One country most people only ever see from a resort pool.
 
 📍 Nanuku + Royal Davui, Fiji
 #Fiji #LuxuryTravel
