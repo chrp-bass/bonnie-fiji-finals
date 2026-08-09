@@ -30,17 +30,17 @@ after the other three have built the desire. It converts the audience they warme
 
 | # | Reel | Length | What it is | Download |
 |---|---|---|---|---|
-| 1 | **The Culture** | 20.7s | The mainland half. Village, the drum, breaks with no name, a dinner with no menu. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-the-culture-21s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-COVER.png) |
-| 2 | **The Island** | 22.7s | Sixteen villas, adults only, no day visitors. Opens on the sharks. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-the-island-23s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-COVER.png) |
-| 3 | **The Design** | 20.9s | The conversion piece. The $400, and what it actually bought. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-21s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-COVER.png) |
-| 4 | **THE SIZZLE** | 28.7s | **The trailer, already scored. The one you send to the person you'd go with.** | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-COVER.png) · [silent](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s-NOAUDIO.mp4) |
+| 1 | **The Culture** | 20.7s | The mainland half. Village, the drum, breaks with no name, a dinner with no menu. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-the-culture-25s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-COVER.png) |
+| 2 | **The Island** | 22.7s | Sixteen villas, adults only, no day visitors. Opens on the sharks. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-the-island-26s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-COVER.png) |
+| 3 | **The Design** | 20.9s | The conversion piece. The $400, and what it actually bought. | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-30s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-COVER.png) |
+| 4 | **THE SIZZLE** | 28.7s | **The trailer, already scored. The one you send to the person you'd go with.** | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4) · [cover](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-COVER.png) · [silent](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s-NOAUDIO.mp4) |
 
 Plus two singles that still stand on their own:
 
 | Reel | Length | Download |
 |---|---|---|
 | Shark dive | 24s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-24s.mp4) |
-| Micro-reel — the helicopter math | 15s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-15s.mp4) |
+| Micro-reel — the helicopter math | 15s | [⬇︎ mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-16s.mp4) |
 
 **Mainland frames never appear in Reel 2 and island frames never appear in Reel 1.**
 Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a place.
@@ -70,18 +70,20 @@ Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a pl
 
 ### 🎬 Reels
 
+*Every reel is scored at −18 dB. A `-NOAUDIO` cut sits beside each one if you'd rather use a trending track.*
+
 **The 3-part master series — post one a week, in order:**
 
-- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) — 20.7s · the mainland half
-- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) — 22.7s · the private island
-- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4) — 20.8s · how it was built
+- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4) — 20.7s · the mainland half
+- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4) — 22.7s · the private island
+- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4) — 20.8s · how it was built
 
 **Singles:**
 
-- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4)
-- [⬇︎ 04-SIZZLE-the-trailer-28s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-28s.mp4)
+- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4)
+- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4)
 - [⬇︎ 05-shark-dive-24s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-24s.mp4)
-- [⬇︎ 06-micro-reel-helicopter-15s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-15s.mp4)
+- [⬇︎ 06-micro-reel-helicopter-16s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-16s.mp4)
 
 ### 📱 Stories (post in order)
 
