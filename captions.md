@@ -105,7 +105,7 @@ Sixteen villas, adults only, no day visitors. Royal Davui is a boat ride from th
 ```
 
 ## `new-carousel-river.png`
-**Education** · IG + FB Feed — carousel slide · _Week 2 Fri_
+**Education** · IG + FB Feed — carousel cover · _Week 2 Fri_
 
 ```
 You don't drive to Sabata Village. You go eleven miles up the Navua River by longboat.
@@ -174,7 +174,7 @@ This is what two weeks in Fiji looked like.
 ```
 Your app ranks ten thousand hotels by price. It has never been to one of them.
 
-Same country, same week, same budget — and a completely different two weeks. The app gives you the popular answer. Popular is a ranking. It was never a recommendation.
+Same country, same destinations, same budget — and a completely different two weeks. The app gives you the popular answer. Popular is a ranking. It was never a recommendation.
 
 DM me FIJI — I'll tell you if this one's right for you.
 

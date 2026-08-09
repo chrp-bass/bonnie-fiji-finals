@@ -114,6 +114,15 @@ page's **Ship It** dialog and it exports with real dates instead of week labels.
 - [⬇︎ bula-bid-04.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-04.png) — the math
 - [⬇︎ bula-bid-05.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/bula-bid/bula-bid-05.png) — the proof
 
+### 🛶 The Navua River
+
+*One post, four slides. The last one is the protocol — knees covered, hats off, drink it in one go — which is the bit worth screenshotting.*
+
+- [⬇︎ river-01.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/river/river-01.png) — you don't drive to this village
+- [⬇︎ river-02.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/river/river-02.png) — sevusevu: you bring kava
+- [⬇︎ river-03.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/river/river-03.png) — then you're in
+- [⬇︎ river-04.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/river/river-04.png) — four rules before you go
+
 ### ⚖️ 3 Decisions That Made This Story
 
 *One post, three slides. One judgment call per slide — nothing else on them.*
@@ -145,7 +154,6 @@ If you skip it, post what's above. Either way you ship.
 ### 🆕 New — from the second photo drop
 
 - [⬇︎ new-feed-turndown.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/feed/new-feed-turndown.png) — FEED POST · they knew about the 50th
-- [⬇︎ new-carousel-river.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/feed/new-carousel-river.png) — CAROUSEL · the Navua River
 - [⬇︎ new-story-sunrise.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/new-story-sunrise.png) — STORY · one of the first on earth
 - [⬇︎ new-story-shark-scale.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/stories/new-story-shark-scale.png) — STORY · count them
 
