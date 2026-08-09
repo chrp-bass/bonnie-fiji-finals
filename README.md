@@ -49,20 +49,27 @@ Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a pl
 
 ## Posting calendar
 
-| When | Asset | Where |
-|---|---|---|
-| Now | Pin post — "What I Actually Do" | IG, pinned |
-| Week 1 · Mon | **Reel 1 — The Culture** | Reels + TikTok |
-| Week 1 · Wed | Story sequence | IG Stories |
-| Week 1 · Thu | **Reel 2 — The Island** | Reels + TikTok |
-| Week 1 · Sat | **Reel 3 — The Design** | Reels + TikTok |
-| Week 2 · Mon | **Reel 4 — The Sizzle** | Reels + TikTok |
-| Week 2 · Wed | Share card — Bonnie POV | Feed + Story |
-| Week 2 · Fri | Bula Bid carousel | IG Feed |
-| Week 3 · Mon | Share card — client POV | IG Feed |
-| Week 3 · Wed | Shark dive reel | Reels + TikTok |
-| Week 3 · Fri | Micro-reel — the helicopter | Reels + TikTok |
-| Week 4 | Emotional / punchy / educational captions | IG Feed |
+| When | Asset | Instagram | Facebook |
+|---|---|---|---|
+| Now | Pin post — "What I Actually Do" | Feed (pinned) | Feed (pinned) |
+| Week 1 · Mon | **Reel 1 — The Culture** | Reels | Reels |
+| Week 1 · Wed | Primary carousel — the antithesis map | Feed | Feed |
+| Week 1 · Thu | Story sequence — all 7 frames | Stories | Stories |
+| Week 2 · Mon | Feed post — they knew about the 50th | Feed | Feed |
+| Week 2 · Wed | **Reel 2 — The Island** | Reels | Reels |
+| Week 2 · Fri | Carousel — the river and the sevusevu | Feed | Feed |
+| Week 3 · Mon | Share card — Bonnie POV | Feed + Story | Feed + Story |
+| Week 3 · Wed | **Reel 3 — The Design** | Reels | Reels |
+| Week 3 · Thu | Share card — **client POV** | Send it to them | — |
+| Week 4 · Mon | Bula Bid carousel | Feed | Feed |
+| Week 4 · Wed | Shark dive reel + helicopter micro-reel | Reels | Reels |
+| Week 4 · Fri | **Reel 4 — The Sizzle** (the closer) | Reels | Reels |
+
+Every asset runs on both feeds — same file, same caption, no separate render. The one
+exception is the client-POV share card: that one goes to the travelers to post themselves.
+
+`buffer-import.csv` is this calendar as an import file. Set a start date in the review
+page's **Ship It** dialog and it exports with real dates instead of week labels.
 
 ---
 
@@ -74,14 +81,13 @@ Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a pl
 
 **The 3-part master series — post one a week, in order:**
 
-- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4) — 20.7s · the mainland half
-- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4) — 22.7s · the private island
-- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4) — 20.8s · how it was built
+- [⬇︎ 01-REEL-1-the-culture-25s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/01-REEL-1-the-culture-25s.mp4) — 20.7s · the mainland half
+- [⬇︎ 02-REEL-2-the-island-26s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/02-REEL-2-the-island-26s.mp4) — 22.7s · the private island
+- [⬇︎ 03-REEL-3-the-design-30s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/03-REEL-3-the-design-30s.mp4) — 20.9s · how it was built
 
 **Singles:**
 
-- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4)
-- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4)
+- [⬇︎ 04-SIZZLE-the-trailer-29s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/04-SIZZLE-the-trailer-29s.mp4) — 28.7s · the trailer, already scored
 - [⬇︎ 05-shark-dive-24s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/05-shark-dive-24s.mp4)
 - [⬇︎ 06-micro-reel-helicopter-16s.mp4](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/reels/06-micro-reel-helicopter-16s.mp4)
 
@@ -138,23 +144,16 @@ Only Reel 3 and the Sizzle mix, because their subject is the decisions, not a pl
 
 ---
 
-*Private repo. Built with Claude Code.*## 4-week posting calendar
+### 📅 Copy, calendar and scheduling
 
-| When | Asset | Where |
-|---|---|---|
-| Now | Pin post — "What I Actually Do" | IG, pinned |
-| W1 Mon | **Reel 1 — The Culture** | Reels + TikTok |
-| W1 Wed | Primary carousel | IG Feed |
-| W1 Thu | Story sequence — all 6 frames | IG Stories |
-| W2 Mon | Emotional caption — the 5:40am jog | IG Feed |
-| W2 Wed | **Reel 2 — The Island** | Reels + TikTok |
-| W2 Fri | Micro-carousel — 3 Decisions | IG Feed |
-| W3 Mon | Share card — Bonnie POV | Feed + Story |
-| W3 Wed | **Reel 3 — The Design** | Reels + TikTok |
-| W3 Thu | Share card — **CLIENT POV** (send it to them) | Their feed |
-| W3 Fri | App vs Advisor carousel | IG Feed |
-| W4 Mon | Bula Bid carousel | IG Feed |
-| W4 Wed | Shark dive reel + helicopter micro-reel | Reels |
-| W4 Fri | **Reel 4 — The Sizzle** (the closer) | Reels + TikTok |
-| Ongoing | Educational + punchy captions between main posts | IG Feed |
+- [⬇︎ captions.md](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/captions.md) — every caption, in posting order, with its bucket and week
+- [⬇︎ captions-final.txt](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/captions-final.txt) — the same thing as plain text, for copy-paste on a phone
+- [⬇︎ buffer-import.csv](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/buffer-import.csv) — the whole calendar as a Buffer import, Instagram and Facebook rows
+- [⬇︎ posting-calendar.png](https://github.com/chrp-bass/bonnie-fiji-finals/raw/main/posting-calendar.png) — the 4 weeks on one page
 
+To schedule with real dates instead of week labels, open `review.html`, tap **Ship It**,
+set the Monday of week 1, and download `buffer-import.csv` from there.
+
+---
+
+*Private repo. Built with Claude Code.*
